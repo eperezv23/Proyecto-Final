@@ -1,0 +1,31 @@
+# Credenciales y configuración privada
+.env
+.env.*
+*.pfx
+*.pem
+*.key
+*.secrets.*
+credentials*
+
+# Respaldos, archivos de SQL Server y paquetes locales
+*.bak
+*.trn
+*.mdf
+*.ndf
+*.ldf
+*.zip
+*.7z
+
+# Referencia privada: incluye identificaciones de los ejemplos suministrados
+referencia/SP01_original.sql
+
+# Archivos temporales y estado del editor
+.vs/
+.vscode/
+*.tmp
+*.log
+Thumbs.db
+Desktop.ini
+
+# Mantener los resultados revisados; ignorar resultados locales adicionales
+evidencias/local-*
