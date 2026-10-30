@@ -1,8 +1,8 @@
-* text=auto
+* -text
 # Conservar exactamente codificación y saltos de línea de los scripts de SSMS.
 # diff mantiene las revisiones legibles aunque se desactive la conversión CRLF.
 *.sql -text diff
 *.ps1 -text diff
-*.md text eol=lf
-*.json text eol=lf
+*.md diff
+*.json diff
 *.png binary
