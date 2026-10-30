@@ -1,0 +1,23 @@
+[
+  {
+    "Batch": 1,
+    "Rows": [
+      {
+        "base": "NEOBANK_GT",
+        "tablas": 22,
+        "procedimientos": 22,
+        "funciones": 4,
+        "clientes_demo": 8,
+        "cuentas_demo": 15
+      }
+    ]
+  },
+  {
+    "Batch": 1,
+    "Rows": []
+  },
+  {
+    "Batch": 1,
+    "Rows": []
+  }
+]

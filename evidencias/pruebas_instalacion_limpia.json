@@ -1,0 +1,380 @@
+{
+  "fecha_guatemala": "2026-10-30T01:55:00.3072447-06:00",
+  "servidor": "lpc:localhost",
+  "base": "NEOBANK_GT_VALIDACION",
+  "lote": "T6d150ae",
+  "correctas": 74,
+  "fallidas": 0,
+  "pruebas": [
+    {
+      "prueba": "SP01 registra cliente individual",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "RN01 rechaza CUI duplicado",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51014"
+    },
+    {
+      "prueba": "SP01 rechaza nombre vacío",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51011"
+    },
+    {
+      "prueba": "SP01 rechaza CUI mal formado",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51012"
+    },
+    {
+      "prueba": "SP01 valida tipo de cliente",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51010"
+    },
+    {
+      "prueba": "SP01 registra cliente jurídico",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "RN01 rechaza NIT duplicado",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51015"
+    },
+    {
+      "prueba": "SP01 jurídico requiere NIT",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51013"
+    },
+    {
+      "prueba": "Auditoría registra alta y principal SQL",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "SP02 apertura con saldo cero y titular",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "RN02 cuenta compartida con dos titulares",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "RN03 cliente inactivo no abre cuentas",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51020"
+    },
+    {
+      "prueba": "SP03 depósito acredita y genera movimiento",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "Monto cero rechazado",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51004"
+    },
+    {
+      "prueba": "Monto negativo rechazado",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51004"
+    },
+    {
+      "prueba": "Más de dos decimales rechazado",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51004"
+    },
+    {
+      "prueba": "Usuario inexistente rechazado",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51003"
+    },
+    {
+      "prueba": "Referencia vacía rechazada",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51002"
+    },
+    {
+      "prueba": "Referencia extensa rechazada sin truncar",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51002"
+    },
+    {
+      "prueba": "RN08 referencia global duplicada",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 2627"
+    },
+    {
+      "prueba": "Rechazos conservan saldo original",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "SP04 retiro debita saldo",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "RN05 retiro sin saldo rechazado",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51031"
+    },
+    {
+      "prueba": "SP05 transfiere conservando total entre cuentas",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "RN06 transferencia tiene débito y crédito relacionados",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "Transferencia a la misma cuenta rechazada",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51040"
+    },
+    {
+      "prueba": "Transferencia entre monedas requiere conversión",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51042"
+    },
+    {
+      "prueba": "RN04 depósito en cuenta bloqueada rechazado",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51030"
+    },
+    {
+      "prueba": "RN04 retiro de cuenta bloqueada rechazado",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51030"
+    },
+    {
+      "prueba": "RN04 transferencia a cuenta bloqueada rechazada",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51041"
+    },
+    {
+      "prueba": "RN07 ROLLBACK ante error después del débito",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51990"
+    },
+    {
+      "prueba": "ROLLBACK restaura ambas cuentas",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "ROLLBACK no deja operación, transferencia ni movimiento parcial",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "SP06 interbancaria pendiente y fondos debitados",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "RN04 cuenta bloqueada no resuelve interbancarias",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51030"
+    },
+    {
+      "prueba": "Interbancaria rechazada devuelve fondos y conserva original",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "Interbancaria no puede resolverse dos veces",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51072"
+    },
+    {
+      "prueba": "Interbancaria confirmada no debita dos veces",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "SP07 conversión calcula destino con ocho decimales de cotización",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "RN10 conserva cotización aplicada exacta",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "F04 conversión coincide con la operación",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "F04 moneda idéntica conserva importe",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "F04 moneda inexistente devuelve NULL",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "SP09 consumo actualiza deuda sin debitar cuenta",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "F03 utilización de tarjeta",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "RN11 consumo sobre límite rechazado",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51062"
+    },
+    {
+      "prueba": "RN12 tarjeta bloqueada no consume",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51061"
+    },
+    {
+      "prueba": "SP10 pago reduce deuda y cuenta; admite pagar tarjeta bloqueada",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "Pago superior a deuda rechazado",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51065"
+    },
+    {
+      "prueba": "Pago desde moneda diferente rechazado",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51064"
+    },
+    {
+      "prueba": "Consumo débito reduce cuenta",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "SP08 plazo fijo debita principal y guarda vencimiento",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "F02 interés simple anual",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "No liquida plazo antes del vencimiento",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51074"
+    },
+    {
+      "prueba": "Liquidación acredita principal e interés una sola vez",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "No permite doble liquidación",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51073"
+    },
+    {
+      "prueba": "RN14 reverso conserva original y restaura importe",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "No permite doble reverso",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51087"
+    },
+    {
+      "prueba": "RN14 no elimina movimiento confirmado",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 547"
+    },
+    {
+      "prueba": "RN14 no modifica movimiento confirmado",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51100"
+    },
+    {
+      "prueba": "Reverso de transferencia restaura ambas cuentas",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "Transferencia no se reversa dos veces",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51087"
+    },
+    {
+      "prueba": "F01 saldo disponible activo",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "F01 cuenta cerrada no tiene saldo disponible",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "Cuenta cerrada no se reabre",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51077"
+    },
+    {
+      "prueba": "Cuenta cerrada no recibe depósitos",
+      "resultado": "CORRECTO",
+      "detalle": "Error SQL obtenido: 51030"
+    },
+    {
+      "prueba": "RF07 registra usuario de auditoría",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "Registro de nueva cotización",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "RN15 todos los movimientos tienen usuario válido",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "Referencias únicas en registro global",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "No quedan transacciones abiertas tras rechazos",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "No quedan saldos negativos",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "No quedan tarjetas sobre su límite",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    },
+    {
+      "prueba": "Concurrencia: sólo un retiro puede gastar los mismos fondos",
+      "resultado": "CORRECTO",
+      "detalle": ""
+    }
+  ]
+}

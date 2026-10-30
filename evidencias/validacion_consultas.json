@@ -1,0 +1,55 @@
+{
+  "base": "NEOBANK_GT",
+  "correctas": 12,
+  "fallidas": 0,
+  "pruebas": [
+    {
+      "consulta": "C01 incluye cliente sin cuentas",
+      "resultado": "CORRECTO"
+    },
+    {
+      "consulta": "C02 siete clientes con monetaria y ahorro",
+      "resultado": "CORRECTO"
+    },
+    {
+      "consulta": "C03 seis movimientos y orden cronológico descendente",
+      "resultado": "CORRECTO"
+    },
+    {
+      "consulta": "C04 incluye cuenta sin movimientos",
+      "resultado": "CORRECTO"
+    },
+    {
+      "consulta": "C05 depósitos y retiros del cliente 1",
+      "resultado": "CORRECTO"
+    },
+    {
+      "consulta": "C06 plazo próximo a vencer",
+      "resultado": "CORRECTO"
+    },
+    {
+      "consulta": "C07 utilización de crédito superior a 80%",
+      "resultado": "CORRECTO"
+    },
+    {
+      "consulta": "C08 total institucional sin duplicar cotitulares",
+      "resultado": "CORRECTO"
+    },
+    {
+      "consulta": "C09 cinco posiciones por moneda",
+      "resultado": "CORRECTO"
+    },
+    {
+      "consulta": "C10 saldo acumulado final exacto",
+      "resultado": "CORRECTO"
+    },
+    {
+      "consulta": "C11 estados y porcentajes 50/25/25",
+      "resultado": "CORRECTO"
+    },
+    {
+      "consulta": "C12 consolida 535 + 500 - 850 = 185 GTQ",
+      "resultado": "CORRECTO"
+    }
+  ]
+}

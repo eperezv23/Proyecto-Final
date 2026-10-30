@@ -1,0 +1,605 @@
+[
+  {
+    "Batch": 1,
+    "Rows": [
+      {
+        "id_cliente": 1,
+        "nombre": "Cliente Ficticio 1",
+        "cantidad_cuentas": 3
+      },
+      {
+        "id_cliente": 2,
+        "nombre": "Cliente Ficticio 2",
+        "cantidad_cuentas": 3
+      },
+      {
+        "id_cliente": 3,
+        "nombre": "Cliente Ficticio 3",
+        "cantidad_cuentas": 2
+      },
+      {
+        "id_cliente": 4,
+        "nombre": "Cliente Ficticio 4",
+        "cantidad_cuentas": 2
+      },
+      {
+        "id_cliente": 5,
+        "nombre": "Cliente Ficticio 5",
+        "cantidad_cuentas": 2
+      },
+      {
+        "id_cliente": 6,
+        "nombre": "Cliente Ficticio 6",
+        "cantidad_cuentas": 2
+      },
+      {
+        "id_cliente": 7,
+        "nombre": "Cliente Ficticio 7",
+        "cantidad_cuentas": 2
+      },
+      {
+        "id_cliente": 8,
+        "nombre": "Empresa Ficticia Demo",
+        "cantidad_cuentas": 0
+      }
+    ]
+  },
+  {
+    "Batch": 1,
+    "Rows": [
+      {
+        "id_cliente": 1,
+        "nombre": "Cliente Ficticio 1"
+      },
+      {
+        "id_cliente": 2,
+        "nombre": "Cliente Ficticio 2"
+      },
+      {
+        "id_cliente": 3,
+        "nombre": "Cliente Ficticio 3"
+      },
+      {
+        "id_cliente": 4,
+        "nombre": "Cliente Ficticio 4"
+      },
+      {
+        "id_cliente": 5,
+        "nombre": "Cliente Ficticio 5"
+      },
+      {
+        "id_cliente": 6,
+        "nombre": "Cliente Ficticio 6"
+      },
+      {
+        "id_cliente": 7,
+        "nombre": "Cliente Ficticio 7"
+      }
+    ]
+  },
+  {
+    "Batch": 1,
+    "Rows": [
+      {
+        "id_movimiento": 21,
+        "fecha_movimiento": "2026-10-30T01:50:15.3",
+        "tipo": "Pago de tarjeta",
+        "referencia": "DEMO-PAGO",
+        "monto": 50.000000,
+        "estado": "Confirmado",
+        "descripcion": null
+      },
+      {
+        "id_movimiento": 20,
+        "fecha_movimiento": "2026-10-30T01:50:15.153",
+        "tipo": "Constitucion plazo fijo",
+        "referencia": "DEMO-PLAZO",
+        "monto": 500.000000,
+        "estado": "Confirmado",
+        "descripcion": null
+      },
+      {
+        "id_movimiento": 18,
+        "fecha_movimiento": "2026-10-30T01:50:15.093",
+        "tipo": "Conversion enviada",
+        "referencia": "DEMO-CONVERSION-D",
+        "monto": 765.000000,
+        "estado": "Confirmado",
+        "descripcion": null
+      },
+      {
+        "id_movimiento": 16,
+        "fecha_movimiento": "2026-10-30T01:50:15.03",
+        "tipo": "Transferencia enviada",
+        "referencia": "DEMO-TRANSFERENCIA-D",
+        "monto": 100.000000,
+        "estado": "Confirmado",
+        "descripcion": null
+      },
+      {
+        "id_movimiento": 15,
+        "fecha_movimiento": "2026-10-30T01:50:14.97",
+        "tipo": "Retiro",
+        "referencia": "DEMO-RETIRO",
+        "monto": 50.000000,
+        "estado": "Confirmado",
+        "descripcion": null
+      },
+      {
+        "id_movimiento": 1,
+        "fecha_movimiento": "2026-10-30T01:50:14.82",
+        "tipo": "Deposito",
+        "referencia": "DEMO-DEPOSITO-GTQ-1",
+        "monto": 2000.000000,
+        "estado": "Confirmado",
+        "descripcion": null
+      }
+    ]
+  },
+  {
+    "Batch": 1,
+    "Rows": [
+      {
+        "id_cuenta": 15,
+        "numero_cuenta": "DEMO-SIN-MOVIMIENTOS",
+        "fecha_apertura": "2026-10-30T00:00:00",
+        "estado": "Activa"
+      }
+    ]
+  },
+  {
+    "Batch": 1,
+    "Rows": [
+      {
+        "id_cliente": 1,
+        "nombre": "Cliente Ficticio 1",
+        "moneda": "GTQ",
+        "total_depositos": 2000.000000,
+        "total_retiros": 50.000000
+      },
+      {
+        "id_cliente": 2,
+        "nombre": "Cliente Ficticio 2",
+        "moneda": "GTQ",
+        "total_depositos": 6000.000000,
+        "total_retiros": 50.000000
+      },
+      {
+        "id_cliente": 3,
+        "nombre": "Cliente Ficticio 3",
+        "moneda": "GTQ",
+        "total_depositos": 6000.000000,
+        "total_retiros": 0.000000
+      },
+      {
+        "id_cliente": 4,
+        "nombre": "Cliente Ficticio 4",
+        "moneda": "GTQ",
+        "total_depositos": 8000.000000,
+        "total_retiros": 0.000000
+      },
+      {
+        "id_cliente": 5,
+        "nombre": "Cliente Ficticio 5",
+        "moneda": "GTQ",
+        "total_depositos": 10000.000000,
+        "total_retiros": 0.000000
+      },
+      {
+        "id_cliente": 6,
+        "nombre": "Cliente Ficticio 6",
+        "moneda": "GTQ",
+        "total_depositos": 12000.000000,
+        "total_retiros": 0.000000
+      },
+      {
+        "id_cliente": 7,
+        "nombre": "Cliente Ficticio 7",
+        "moneda": "GTQ",
+        "total_depositos": 14000.000000,
+        "total_retiros": 0.000000
+      },
+      {
+        "id_cliente": 1,
+        "nombre": "Cliente Ficticio 1",
+        "moneda": "USD",
+        "total_depositos": 100.000000,
+        "total_retiros": 0.000000
+      },
+      {
+        "id_cliente": 2,
+        "nombre": "Cliente Ficticio 2",
+        "moneda": "USD",
+        "total_depositos": 200.000000,
+        "total_retiros": 0.000000
+      },
+      {
+        "id_cliente": 3,
+        "nombre": "Cliente Ficticio 3",
+        "moneda": "USD",
+        "total_depositos": 300.000000,
+        "total_retiros": 0.000000
+      },
+      {
+        "id_cliente": 4,
+        "nombre": "Cliente Ficticio 4",
+        "moneda": "USD",
+        "total_depositos": 400.000000,
+        "total_retiros": 0.000000
+      },
+      {
+        "id_cliente": 5,
+        "nombre": "Cliente Ficticio 5",
+        "moneda": "USD",
+        "total_depositos": 500.000000,
+        "total_retiros": 0.000000
+      },
+      {
+        "id_cliente": 6,
+        "nombre": "Cliente Ficticio 6",
+        "moneda": "USD",
+        "total_depositos": 600.000000,
+        "total_retiros": 0.000000
+      },
+      {
+        "id_cliente": 7,
+        "nombre": "Cliente Ficticio 7",
+        "moneda": "USD",
+        "total_depositos": 700.000000,
+        "total_retiros": 0.000000
+      }
+    ]
+  },
+  {
+    "Batch": 1,
+    "Rows": [
+      {
+        "id_plazo_fijo": 1,
+        "nombre": "Cliente Ficticio 1",
+        "monto": 500.000000,
+        "tasa_interes": 6.000000,
+        "plazo_dias": 15,
+        "fecha_vencimiento": "2026-11-14T00:00:00",
+        "moneda": "GTQ"
+      }
+    ]
+  },
+  {
+    "Batch": 1,
+    "Rows": [
+      {
+        "id_tarjeta": 1,
+        "nombre": "Cliente Ficticio 1",
+        "limite_credito": 1000.000000,
+        "saldo_utilizado": 850.000000,
+        "porcentaje": 85.0000
+      }
+    ]
+  },
+  {
+    "Batch": 1,
+    "Rows": [
+      {
+        "tipo_cuenta": "Ahorro",
+        "moneda": "GTQ",
+        "cantidad": 1,
+        "saldo_total": 0.000000
+      },
+      {
+        "tipo_cuenta": "Monetaria",
+        "moneda": "GTQ",
+        "cantidad": 7,
+        "saldo_total": 54535.000000
+      },
+      {
+        "tipo_cuenta": "Ahorro",
+        "moneda": "USD",
+        "cantidad": 7,
+        "saldo_total": 2900.000000
+      }
+    ]
+  },
+  {
+    "Batch": 1,
+    "Rows": [
+      {
+        "id_cliente": 7,
+        "nombre": "Cliente Ficticio 7",
+        "moneda": "GTQ",
+        "saldo_total": 14000.000000,
+        "posicion": 1
+      },
+      {
+        "id_cliente": 6,
+        "nombre": "Cliente Ficticio 6",
+        "moneda": "GTQ",
+        "saldo_total": 12000.000000,
+        "posicion": 2
+      },
+      {
+        "id_cliente": 5,
+        "nombre": "Cliente Ficticio 5",
+        "moneda": "GTQ",
+        "saldo_total": 10000.000000,
+        "posicion": 3
+      },
+      {
+        "id_cliente": 4,
+        "nombre": "Cliente Ficticio 4",
+        "moneda": "GTQ",
+        "saldo_total": 8000.000000,
+        "posicion": 4
+      },
+      {
+        "id_cliente": 3,
+        "nombre": "Cliente Ficticio 3",
+        "moneda": "GTQ",
+        "saldo_total": 6000.000000,
+        "posicion": 5
+      },
+      {
+        "id_cliente": 7,
+        "nombre": "Cliente Ficticio 7",
+        "moneda": "USD",
+        "saldo_total": 700.000000,
+        "posicion": 1
+      },
+      {
+        "id_cliente": 6,
+        "nombre": "Cliente Ficticio 6",
+        "moneda": "USD",
+        "saldo_total": 600.000000,
+        "posicion": 2
+      },
+      {
+        "id_cliente": 5,
+        "nombre": "Cliente Ficticio 5",
+        "moneda": "USD",
+        "saldo_total": 500.000000,
+        "posicion": 3
+      },
+      {
+        "id_cliente": 4,
+        "nombre": "Cliente Ficticio 4",
+        "moneda": "USD",
+        "saldo_total": 400.000000,
+        "posicion": 4
+      },
+      {
+        "id_cliente": 3,
+        "nombre": "Cliente Ficticio 3",
+        "moneda": "USD",
+        "saldo_total": 300.000000,
+        "posicion": 5
+      }
+    ]
+  },
+  {
+    "Batch": 1,
+    "Rows": [
+      {
+        "id_movimiento": 1,
+        "fecha_movimiento": "2026-10-30T01:50:14.82",
+        "referencia": "DEMO-DEPOSITO-GTQ-1",
+        "tipo": "Deposito",
+        "monto": 2000.000000,
+        "importe": 2000.000000,
+        "saldo_acumulado": 2000.000000
+      },
+      {
+        "id_movimiento": 15,
+        "fecha_movimiento": "2026-10-30T01:50:14.97",
+        "referencia": "DEMO-RETIRO",
+        "tipo": "Retiro",
+        "monto": 50.000000,
+        "importe": -50.000000,
+        "saldo_acumulado": 1950.000000
+      },
+      {
+        "id_movimiento": 16,
+        "fecha_movimiento": "2026-10-30T01:50:15.03",
+        "referencia": "DEMO-TRANSFERENCIA-D",
+        "tipo": "Transferencia enviada",
+        "monto": 100.000000,
+        "importe": -100.000000,
+        "saldo_acumulado": 1850.000000
+      },
+      {
+        "id_movimiento": 18,
+        "fecha_movimiento": "2026-10-30T01:50:15.093",
+        "referencia": "DEMO-CONVERSION-D",
+        "tipo": "Conversion enviada",
+        "monto": 765.000000,
+        "importe": -765.000000,
+        "saldo_acumulado": 1085.000000
+      },
+      {
+        "id_movimiento": 20,
+        "fecha_movimiento": "2026-10-30T01:50:15.153",
+        "referencia": "DEMO-PLAZO",
+        "tipo": "Constitucion plazo fijo",
+        "monto": 500.000000,
+        "importe": -500.000000,
+        "saldo_acumulado": 585.000000
+      },
+      {
+        "id_movimiento": 21,
+        "fecha_movimiento": "2026-10-30T01:50:15.3",
+        "referencia": "DEMO-PAGO",
+        "tipo": "Pago de tarjeta",
+        "monto": 50.000000,
+        "importe": -50.000000,
+        "saldo_acumulado": 535.000000
+      }
+    ]
+  },
+  {
+    "Batch": 1,
+    "Rows": [
+      {
+        "estado": "Confirmada",
+        "cantidad": 2,
+        "porcentaje": 50.00
+      },
+      {
+        "estado": "Pendiente",
+        "cantidad": 1,
+        "porcentaje": 25.00
+      },
+      {
+        "estado": "Rechazada",
+        "cantidad": 1,
+        "porcentaje": 25.00
+      }
+    ]
+  },
+  {
+    "Batch": 1,
+    "Rows": [
+      {
+        "id_cliente": 1,
+        "nombre": "Cliente Ficticio 1",
+        "moneda": "GTQ",
+        "saldo_cuentas": 535.000000,
+        "inversiones": 500.000000,
+        "deuda_tarjetas": 850.000000,
+        "posicion_neta": 185.000000
+      },
+      {
+        "id_cliente": 1,
+        "nombre": "Cliente Ficticio 1",
+        "moneda": "USD",
+        "saldo_cuentas": 200.000000,
+        "inversiones": 0.000000,
+        "deuda_tarjetas": 0.000000,
+        "posicion_neta": 200.000000
+      },
+      {
+        "id_cliente": 2,
+        "nombre": "Cliente Ficticio 2",
+        "moneda": "GTQ",
+        "saldo_cuentas": 4535.000000,
+        "inversiones": 0.000000,
+        "deuda_tarjetas": 0.000000,
+        "posicion_neta": 4535.000000
+      },
+      {
+        "id_cliente": 2,
+        "nombre": "Cliente Ficticio 2",
+        "moneda": "USD",
+        "saldo_cuentas": 200.000000,
+        "inversiones": 0.000000,
+        "deuda_tarjetas": 0.000000,
+        "posicion_neta": 200.000000
+      },
+      {
+        "id_cliente": 3,
+        "nombre": "Cliente Ficticio 3",
+        "moneda": "GTQ",
+        "saldo_cuentas": 6000.000000,
+        "inversiones": 0.000000,
+        "deuda_tarjetas": 0.000000,
+        "posicion_neta": 6000.000000
+      },
+      {
+        "id_cliente": 3,
+        "nombre": "Cliente Ficticio 3",
+        "moneda": "USD",
+        "saldo_cuentas": 300.000000,
+        "inversiones": 0.000000,
+        "deuda_tarjetas": 0.000000,
+        "posicion_neta": 300.000000
+      },
+      {
+        "id_cliente": 4,
+        "nombre": "Cliente Ficticio 4",
+        "moneda": "GTQ",
+        "saldo_cuentas": 8000.000000,
+        "inversiones": 0.000000,
+        "deuda_tarjetas": 0.000000,
+        "posicion_neta": 8000.000000
+      },
+      {
+        "id_cliente": 4,
+        "nombre": "Cliente Ficticio 4",
+        "moneda": "USD",
+        "saldo_cuentas": 400.000000,
+        "inversiones": 0.000000,
+        "deuda_tarjetas": 0.000000,
+        "posicion_neta": 400.000000
+      },
+      {
+        "id_cliente": 5,
+        "nombre": "Cliente Ficticio 5",
+        "moneda": "GTQ",
+        "saldo_cuentas": 10000.000000,
+        "inversiones": 0.000000,
+        "deuda_tarjetas": 0.000000,
+        "posicion_neta": 10000.000000
+      },
+      {
+        "id_cliente": 5,
+        "nombre": "Cliente Ficticio 5",
+        "moneda": "USD",
+        "saldo_cuentas": 500.000000,
+        "inversiones": 0.000000,
+        "deuda_tarjetas": 0.000000,
+        "posicion_neta": 500.000000
+      },
+      {
+        "id_cliente": 6,
+        "nombre": "Cliente Ficticio 6",
+        "moneda": "GTQ",
+        "saldo_cuentas": 12000.000000,
+        "inversiones": 0.000000,
+        "deuda_tarjetas": 0.000000,
+        "posicion_neta": 12000.000000
+      },
+      {
+        "id_cliente": 6,
+        "nombre": "Cliente Ficticio 6",
+        "moneda": "USD",
+        "saldo_cuentas": 600.000000,
+        "inversiones": 0.000000,
+        "deuda_tarjetas": 0.000000,
+        "posicion_neta": 600.000000
+      },
+      {
+        "id_cliente": 7,
+        "nombre": "Cliente Ficticio 7",
+        "moneda": "GTQ",
+        "saldo_cuentas": 14000.000000,
+        "inversiones": 0.000000,
+        "deuda_tarjetas": 0.000000,
+        "posicion_neta": 14000.000000
+      },
+      {
+        "id_cliente": 7,
+        "nombre": "Cliente Ficticio 7",
+        "moneda": "USD",
+        "saldo_cuentas": 700.000000,
+        "inversiones": 0.000000,
+        "deuda_tarjetas": 0.000000,
+        "posicion_neta": 700.000000
+      },
+      {
+        "id_cliente": 8,
+        "nombre": "Empresa Ficticia Demo",
+        "moneda": "GTQ",
+        "saldo_cuentas": 0.000000,
+        "inversiones": 0.000000,
+        "deuda_tarjetas": 0.000000,
+        "posicion_neta": 0.000000
+      },
+      {
+        "id_cliente": 8,
+        "nombre": "Empresa Ficticia Demo",
+        "moneda": "USD",
+        "saldo_cuentas": 0.000000,
+        "inversiones": 0.000000,
+        "deuda_tarjetas": 0.000000,
+        "posicion_neta": 0.000000
+      }
+    ]
+  }
+]
