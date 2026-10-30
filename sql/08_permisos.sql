@@ -16,10 +16,11 @@ BEGIN
  FETCH NEXT FROM rutinas INTO @nombre;
 END;
 CLOSE rutinas; DEALLOCATE rutinas;
-GRANT SELECT ON dbo.F01_SALDO_DISPONIBLE TO neobank_operador;
-GRANT SELECT ON dbo.F02_INTERES_PLAZO_FIJO TO neobank_operador;
-GRANT SELECT ON dbo.F03_UTILIZACION_TARJETA TO neobank_operador;
-GRANT SELECT ON dbo.F04_CONVERTIR_MONEDA TO neobank_operador;
+-- Las funciones escalares requieren EXECUTE, aunque se invoquen desde SELECT.
+GRANT EXECUTE ON dbo.F01_SALDO_DISPONIBLE TO neobank_operador;
+GRANT EXECUTE ON dbo.F02_INTERES_PLAZO_FIJO TO neobank_operador;
+GRANT EXECUTE ON dbo.F03_UTILIZACION_TARJETA TO neobank_operador;
+GRANT EXECUTE ON dbo.F04_CONVERTIR_MONEDA TO neobank_operador;
 DECLARE lectura CURSOR LOCAL FAST_FORWARD FOR
  SELECT name FROM sys.tables WHERE schema_id=SCHEMA_ID('dbo') AND name LIKE 'TB[_]%' AND name<>'TB_USUARIO';
 OPEN lectura; FETCH NEXT FROM lectura INTO @nombre;
